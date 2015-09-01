@@ -1,0 +1,7 @@
+{% extends 'template.html' %}
+
+{% block content %}
+  {% for line in poem.lines %}
+    <li class="line">{{ line }}</li>
+  {% endfor %}
+{% endblock %}
